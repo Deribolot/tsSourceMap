@@ -1,5 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
     mode: 'development',
@@ -8,15 +10,25 @@ module.exports = {
         second: './src/index2.js'
     },
     output: {
-        path: path.resolve(__dirname, '/dist'),
+        path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
     devtool: 'source-map',
     module: {
         rules: [
             {
-                test: /\.css$/,
-                use: 'css-loader'
+                test: /\.less$/i,
+                use: [MiniCssExtractPlugin.loader, 'css-loader', {
+                    loader: 'less-loader',
+                    options:{
+                        lessOptions:{
+                            globalVars:{
+                                color1: 'rgb(255, 92, 188)'
+                            }
+                        }
+                    }
+                }
+                ]
             },
             {
                 test: /\.ts$|tsx$/,
@@ -28,5 +40,13 @@ module.exports = {
     resolve: {
         extensions: ['.tsx', '.ts', '.jsx', '...'],
     },
-    plugins: [new HtmlWebpackPlugin({})]
+    optimization: {
+        minimizer: [
+            new CssMinimizerPlugin(),
+        ],
+    },
+    plugins: [
+        new MiniCssExtractPlugin(),
+        new HtmlWebpackPlugin({})
+    ]
 };

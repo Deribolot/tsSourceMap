@@ -52,7 +52,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_join__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash_join__WEBPACK_IMPORTED_MODULE_0__);
 
 /* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__(num) {
-    return lodash_join__WEBPACK_IMPORTED_MODULE_0___default()(['Hello', String(num), {}, 'webpack'], ' ');
+    console.log(num);
+    return lodash_join__WEBPACK_IMPORTED_MODULE_0___default()(['Hello', num, 'webpack'], ' ');
 }
 
 

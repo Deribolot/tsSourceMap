@@ -1,5 +1,6 @@
 import join from 'lodash/join';
 
 export default function (num: number) {
-    return join(['Hello', String(num), 'webpack'], ' ');
+    console.log(num);
+    return join(['Hello', num, 'webpack'], ' ');
 }
