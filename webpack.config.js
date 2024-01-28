@@ -8,7 +8,7 @@ module.exports = {
         second: './src/index2.js'
     },
     output: {
-        path: __dirname + '/dist',
+        path: path.resolve(__dirname, '/dist'),
         filename: '[name].js'
     },
     devtool: 'source-map',
@@ -25,7 +25,7 @@ module.exports = {
             }
         ]
     },
-    resolve:{
+    resolve: {
         extensions: ['.tsx', '.ts', '.jsx', '...'],
     },
     plugins: [new HtmlWebpackPlugin({})]
