@@ -11,7 +11,8 @@ module.exports = {
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: '[name].js'
+        filename: '[name].js',
+        clean: true
     },
     devtool: 'source-map',
     module: {
@@ -34,6 +35,14 @@ module.exports = {
                 test: /\.ts$|tsx$/,
                 use: 'ts-loader',
                 exclude: /node-modules/,
+            },
+           {
+                test:/\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
+            },
+             {
+                test:/\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource'
             }
         ]
     },
