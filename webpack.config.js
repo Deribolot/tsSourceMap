@@ -56,6 +56,7 @@ module.exports = {
         minimizer: [
             new CssMinimizerPlugin(),
         ],
+        runtimeChunk: 'single',
     },
     plugins: [
         new MiniCssExtractPlugin(),
