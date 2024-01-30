@@ -17,6 +17,7 @@
   },
   "scripts": {
     "build": "webpack",
+    "start": "webpack serve --open",
     "compile": "tsc"
   },
   "name": "webpack-ts",
