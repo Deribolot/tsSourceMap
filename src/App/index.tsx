@@ -1,11 +1,12 @@
 import React from 'react';
 import img from '@/1.jpg';
+import styles from './index.module.less';
 
 export default function () {
     return (
-        <>
-            {'Hello, I\'m reactive'}
+        <div className={styles.main}>
+            App
             <img src={img} alt="cat" />
-        </>
+        </div>
     );
 }
