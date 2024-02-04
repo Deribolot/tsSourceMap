@@ -1,0 +1,15 @@
+/*!*************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[0].use[2]!./src/index.less ***!
+  \*************************************************************************************************************************************/
+.main {
+  background-color: white;
+  color: #ff5cbc;
+}
+h1 {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 800;
+}
+
+
+/*# sourceMappingURL=second.css.map*/
