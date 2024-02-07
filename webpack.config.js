@@ -93,6 +93,9 @@ module.exports = (env, argv) => {
                 new CssMinimizerPlugin(),
             ],
             runtimeChunk: 'single',
+            splitChunks: {
+                chunks: 'all',
+            }
         },
         plugins: [
             new MiniCssExtractPlugin(),
