@@ -30,14 +30,24 @@ module.exports = (env, argv) => {
                     test: /\.css$/i,
                     use: [
                         MiniCssExtractPlugin.loader,
-                        'css-loader'
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                modules: true,
+                            }
+                        },
                     ]
                 },
                 {
                     test: /\.less$/i,
                     use: [
                         MiniCssExtractPlugin.loader,
-                        'css-loader',
+                        {
+                            loader: 'css-loader',
+                            options: {
+                                modules: true,
+                            }
+                        },
                         {
                             loader: 'less-loader',
                             options: {

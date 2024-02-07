@@ -1,6 +1,6 @@
 import React from 'react';
 import img from '@/1.jpg';
-import styles from './index.module.less';
+import styles from './index.less';
 
 export default function () {
     return (
