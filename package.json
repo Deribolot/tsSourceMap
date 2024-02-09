@@ -25,6 +25,7 @@
   "scripts": {
     "build": "webpack --mode development",
     "start": "webpack serve --open --mode development",
+    "analyze": "webpack --profile --json > stats.json",
     "compile": "tsc"
   },
   "name": "webpack-ts",
