@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
     return {
         mode,
         entry: {
-            first: path.join(__dirname, 'src', 'index.tsx'),
+            index: path.join(__dirname, 'src', 'index.tsx'),
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
