@@ -12,8 +12,7 @@ module.exports = (env, argv) => {
     return {
         mode,
         entry: {
-            first: path.join(__dirname, 'src', 'index.jsx'),
-            second: path.join(__dirname, 'src', 'index2.tsx')
+            first: path.join(__dirname, 'src', 'index.tsx'),
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
@@ -92,10 +91,6 @@ module.exports = (env, argv) => {
             minimizer: [
                 new CssMinimizerPlugin(),
             ],
-            runtimeChunk: 'single',
-            splitChunks: {
-                chunks: 'all',
-            }
         },
         plugins: [
             new MiniCssExtractPlugin(),
