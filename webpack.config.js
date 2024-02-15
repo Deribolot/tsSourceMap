@@ -26,7 +26,7 @@ module.exports = (env, argv) => {
         },
         output: {
             path: path.resolve(__dirname, 'dist'),
-            filename: '[name].js',
+            filename: '[name].[contenthash].js',
             clean: true
         },
         devtool: isProduction ? 'nosources-source-map' : 'source-map',
@@ -96,9 +96,20 @@ module.exports = (env, argv) => {
             extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
         },
         optimization: {
+            moduleIds: 'deterministic',
             minimizer: [
                 new CssMinimizerPlugin(),
             ],
+            runtimeChunk: 'single',
+            splitChunks: {
+              cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: 'vendors',
+                    chunks: 'initial',
+                  },
+              },
+            },
         },
         plugins: [
             new MiniCssExtractPlugin(),
