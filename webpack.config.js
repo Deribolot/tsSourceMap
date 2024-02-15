@@ -14,7 +14,7 @@ const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
 // 2 режим -- это проект в prod'е (no-sources-sourсe-map) подтягивает пакет в prod'е (no-sources-sourсe-map),
 
 module.exports = (env, argv) => {
-    console.log(argv.mode, process.env.NODE_ENV)
+    console.log(argv.mode, process.env.NODE_ENV, env?.theme)
     const isProduction = argv.mode === 'production';
     const mode = isProduction ? 'production' : 'development';
 
@@ -45,7 +45,8 @@ module.exports = (env, argv) => {
                                 modules: true,
                             }
                         },
-                    ]
+                    ],
+                    exclude: /node-modules/,
                 },
                 {
                     test: /\.less$/i,
@@ -67,7 +68,8 @@ module.exports = (env, argv) => {
                                 }
                             }
                         }
-                    ]
+                    ],
+                    exclude: /node-modules/,
                 },
                 {
                     test: /\.js$|jsx$/,
@@ -82,10 +84,12 @@ module.exports = (env, argv) => {
                 {
                     test: /\.(png|svg|jpg|jpeg|gif)$/i,
                     type: 'asset/resource',
+                    exclude: /node-modules/,
                 },
                 {
                     test: /\.(woff|woff2|eot|ttf|otf)$/i,
-                    type: 'asset/resource'
+                    type: 'asset/resource',
+                    exclude: /node-modules/,
                 }
             ]
         },
