@@ -3,6 +3,7 @@ import imgSrc from '@/1.jpg';
 import styles from './index.less';
 
 async function getImageContent(src: string) {
+    
     let img
     if (src) {
         const imgResponse = await fetch(src);
@@ -18,11 +19,12 @@ let defImg: string | undefined;
 getImageContent(imgSrc).then(async (newImg) => {
     defImg = newImg 
 });
-
 export default function () {
     const [img, setImg] = useState(defImg);
 
+
     const loadImage = async () => {
+        import('lodash/join')
         if (defImg) {
             setImg(defImg)
             return
