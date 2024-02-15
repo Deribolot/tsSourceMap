@@ -94,10 +94,6 @@ module.exports = (env, argv) => {
                 '@': path.resolve(__dirname, 'src/')
             },
             extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
-            extensionAlias: {
-                // '.js': ['.js', '.ts'],
-                // '.jsx': ['.jsx', '.tsx'],
-            }
         },
         optimization: {
             minimizer: [
@@ -119,26 +115,6 @@ module.exports = (env, argv) => {
                     return 'script';
                 }
             })
-            /* new HtmlBundlerPlugin({
-              entry: {
-                index: path.join(__dirname, 'src', 'index.html'),
-              },
-                  preload: [
-               {
-                    test: /\.(css|scss|less)$/,
-                    as: 'style',
-                    //rel?: string;
-                    //type?: string;
-                   // attributes?: { [attributeName: string]: string | boolean };
-                  },
-                  {
-                      test: /\.(js|ts)$/,
-                      as: 'script',
-                    },
-                ],
-               
-             
-            }), */
         ]
     };
 };
