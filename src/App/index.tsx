@@ -22,7 +22,6 @@ getImageContent(imgSrc).then(async (newImg) => {
 export default function () {
     const [img, setImg] = useState(defImg);
 
-
     const loadImage = async () => {
         import('lodash/join')
         if (defImg) {

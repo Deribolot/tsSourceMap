@@ -104,11 +104,7 @@ module.exports = (env, argv) => {
             new MiniCssExtractPlugin(),
             new HtmlWebpackPlugin({ template: path.join(__dirname, 'src', 'index.html') }),
             new PreloadWebpackPlugin({
-                rel: 'preload',
-                include: 'all',
-                fileBlacklist: [/\.map/, /index/],
                 as(entry) {
-                    console.log({ entry })
                     if (/\.(less|css)$/.test(entry)) return 'style';
                     if (/\.(woff|woff2|eot|ttf|otf)$/.test(entry)) return 'font';
                     if (/\.(png|svg|jpg|jpeg|gif)$/.test(entry)) return 'image';
