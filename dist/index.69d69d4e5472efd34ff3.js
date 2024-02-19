@@ -1,5 +1,37 @@
-"use strict";
 (self["webpackChunkwebpack_ts"] = self["webpackChunkwebpack_ts"] || []).push([["index"],{
+
+/***/ 807:
+/*!*******************************!*\
+  !*** ./components/ sync .ts$ ***!
+  \*******************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+var map = {
+	"./f1.ts": 346,
+	"./f2.ts": 995
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 807;
+
+/***/ }),
 
 /***/ 518:
 /*!****************************!*\
@@ -7,6 +39,7 @@
   \****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
@@ -16,12 +49,49 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ 346:
+/*!**************************!*\
+  !*** ./components/f1.ts ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+console.log('f1');
+var f1 = { f1: 1 };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (f1);
+
+
+/***/ }),
+
+/***/ 995:
+/*!**************************!*\
+  !*** ./components/f2.ts ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+console.log('f2');
+var f2 = { f2: 1 };
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (f2);
+
+
+/***/ }),
+
 /***/ 337:
 /*!***************************!*\
   !*** ./src/App/index.tsx ***!
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
@@ -126,16 +196,53 @@ getImageContent(_1_jpg__WEBPACK_IMPORTED_MODULE_2__).then(function (newImg) { re
 
 /***/ }),
 
+/***/ 369:
+/*!******************!*\
+  !*** ./src/f.ts ***!
+  \******************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+"use strict";
+
+var cache = {};
+// here, we're creating an anonymous function that loads up our HTML fragments
+// then it adds them to our cache object
+var importAll = function (requireContext) {
+    return requireContext
+        .keys()
+        .forEach(function (key) { return (cache[key] = requireContext(key)); });
+};
+// next, we call our importAll() function to load the files
+// notice how this is where we call the require.context() function
+// it uses our file path, whether to load subdirectories and what file type to get
+importAll(__webpack_require__(807));
+// finally, we can loop over our cache's keys and add the HTML to our output element
+Object.keys(cache).forEach(function (key) {
+    var _a;
+    console.log(key, (_a = cache[key]) === null || _a === void 0 ? void 0 : _a.default);
+});
+// сделать папку типа pages, которая динимачески грузит страницы,
+// каждая страница+ее компонент -- это отдельный бандл
+// ignorePlugin
+// contextReplacementFile
+
+
+/***/ }),
+
 /***/ 629:
 /*!***********************!*\
   !*** ./src/index.tsx ***!
   \***********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
+"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ 823);
 /* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ 897);
-/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/App */ 337);
+/* harmony import */ var _f__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/f */ 369);
+/* harmony import */ var _f__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_f__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/App */ 337);
+
 
 
 
@@ -146,7 +253,7 @@ if (!domNode) {
     document.body.appendChild(domNode);
 }
 var root = (0,react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot)(domNode);
-root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_App__WEBPACK_IMPORTED_MODULE_2__["default"], {}));
+root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_App__WEBPACK_IMPORTED_MODULE_3__["default"], {}));
 
 
 /***/ }),
@@ -157,6 +264,7 @@ root.render((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)(_App__WEBPACK
   \*******************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+"use strict";
 module.exports = __webpack_require__.p + "a95670f8dfa89f97dcd5.jpg";
 
 /***/ })
@@ -168,4 +276,4 @@ module.exports = __webpack_require__.p + "a95670f8dfa89f97dcd5.jpg";
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=index.acdf2c2ae8c7082884c0.js.map
+//# sourceMappingURL=index.69d69d4e5472efd34ff3.js.map

@@ -1,5 +1,7 @@
 import { createRoot } from 'react-dom/client';
+import  '@/f';
 import App from '@/App';
+
 
 let domNode = document.getElementById('root');
 

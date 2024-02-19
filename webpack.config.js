@@ -4,17 +4,21 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
 
+
+
 //uglify
 //линтеры
 // сторибук
 // моки 
 
-// использовать пакет на проекте, 2 режима spurce map пакета
-// 1 режим -- это проект в dev'е (eval-source-map) подтягивает пакет в dev'е (eval-source-map)
-// 2 режим -- это проект в prod'е (no-sources-sourсe-map) подтягивает пакет в prod'е (no-sources-sourсe-map),
+/*
+TypeScript
+Use the fork-ts-checker-webpack-plugin for typechecking in a separate process.
+Configure loaders to skip typechecking.
+Use the ts-loader in happyPackMode: true / transpileOnly: true.
+ */
 
 module.exports = (env, argv) => {
-    console.log(argv.mode, process.env.NODE_ENV, env?.theme)
     const isProduction = argv.mode === 'production';
     const mode = isProduction ? 'production' : 'development';
 
@@ -98,6 +102,8 @@ module.exports = (env, argv) => {
                 '@': path.resolve(__dirname, 'src/')
             },
             extensions: ['.tsx', '.ts', '.jsx', '.js', '...'],
+            symlinks: false,
+            cacheWithContext: false,
         },
         optimization: {
             moduleIds: 'deterministic',
