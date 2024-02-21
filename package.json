@@ -25,9 +25,10 @@
     "webpack-dev-server": "^4.15.1"
   },
   "scripts": {
-    "build": "webpack --mode development --env theme=dark --node-env development",
+    "build": "webpack --mode development --env theme=dark",
     "start": "webpack serve --open --mode development --env theme=dark",
-    "analyze": "webpack --profile --json > stats.json",
+    "analyze": "webpack --profile --json > profile.json",
+    "stats": "webpack --mode development --env stats=true > stats.txt",
     "compile": "tsc"
   },
   "name": "webpack-ts",
@@ -36,7 +37,9 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
+    "classnames": "^2.5.1",
     "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.3.3"

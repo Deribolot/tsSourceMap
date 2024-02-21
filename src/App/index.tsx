@@ -1,42 +1,47 @@
-import { useState } from 'react';
-import imgSrc from '@/1.jpg';
+import React, { useMemo, useState, Suspense } from 'react';
+import menuContext from './menuContext';
+import Menu from '@/components/Menu';
+import split from 'lodash/split';
+import reduce from 'lodash/reduce';
+import lowerFirst from 'lodash/lowerFirst';
+import classnames from 'classnames';
 import styles from './index.less';
 
-async function getImageContent(src: string) {
-    
-    let img
-    if (src) {
-        const imgResponse = await fetch(src);
-        if (imgResponse) {
-            const blob = await imgResponse.blob();
-            img = URL.createObjectURL(blob);
-        }
-    }
-    return img;
+function RenderingComponent({ Component }: { Component: React.FunctionComponent }) {
+    return <Component />
 }
 
-let defImg: string | undefined;
-getImageContent(imgSrc).then(async (newImg) => {
-    defImg = newImg 
-});
 export default function () {
-    const [img, setImg] = useState(defImg);
+    const [activeKey, setActiveKey] = useState<string>('home');
 
-    const loadImage = async () => {
-        import('lodash/join')
-        if (defImg) {
-            setImg(defImg)
-            return
+    const menuItems = useMemo(() => reduce<string, { [key: string]: string }>(menuContext.keys(), (result, filePath) => {
+        const filePathStrings = split(filePath, '/');
+        const fileName = filePathStrings[filePathStrings.length - 1];
+        const fileNameStrings = split(fileName, '.');
+        let name = lowerFirst(fileNameStrings[0]);
+        if (name === 'index' && filePathStrings.length > 1) {
+            name = lowerFirst(filePathStrings[filePathStrings.length - 2]);
         }
-        const newImg = await getImageContent(imgSrc);
-        setImg(newImg)
-    }
+
+        result[name] = filePath;
+        return result;
+    }, {}), [menuContext]);
+
+    const menuComponent = useMemo(() =>
+        reduce<[string, string], { [key: string]: React.LazyExoticComponent<React.FunctionComponent> }>(Object.entries(menuItems), (result, [name, filePath]) => {
+            result[name] = React.lazy(() => menuContext(filePath));
+
+            return result;
+        }, {}), [menuItems]);
 
     return (
-        <div className={styles.main}>
-            App
-            {img && <img src={img} alt="cat" />}
-            {!img && <button onClick={loadImage} type='button' >load image</button>}
+        <div className={classnames('main', styles.main)}>
+            <Menu items={menuItems} activeKey={activeKey} setActiveKey={setActiveKey} className={styles.menu} />
+            <div className={styles.content}>
+                <Suspense fallback={'Loading'}>
+                    <RenderingComponent Component={menuComponent[activeKey]} />
+                </Suspense>
+            </div>
         </div>
     );
 }

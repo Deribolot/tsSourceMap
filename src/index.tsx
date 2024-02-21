@@ -1,7 +1,8 @@
 import { createRoot } from 'react-dom/client';
-import  '@/f';
-import App from '@/App';
+import 'normalize.css';
+import './index.less';
 
+import App from '@/App';
 
 let domNode = document.getElementById('root');
 

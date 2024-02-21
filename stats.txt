@@ -1,0 +1,632 @@
+PublicPath: [1mauto[39m[22m
+assets by status 43.2 KiB [1m[32m[cached][39m[22m 1 asset
+assets by path [1m[32m*.js[39m[22m 1.14 MiB
+  asset [1m[33mvendors.dfffa263f749e8809031.js[39m[22m [1m[33m1.1 MiB[39m[22m {[1m[33mvendors[39m[22m} [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m [1m[33m[big][39m[22m (name: vendors) (id hint: vendor)
+    sourceMap [1m[32mvendors.dfffa263f749e8809031.js.map[39m[22m 2.16 MiB ({[1m[33mvendors[39m[22m}) [1m[32m[emitted][39m[22m [1m[32m[dev][39m[22m (auxiliary name: vendors) (auxiliary id hint: vendor)
+  asset [1m[32mruntime.0d2bca9e091e93492cdd.js[39m[22m 13.5 KiB {[1m[33mruntime[39m[22m} [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m (name: runtime)
+    sourceMap [1m[32mruntime.0d2bca9e091e93492cdd.js.map[39m[22m 12.4 KiB ({[1m[33mruntime[39m[22m}) [1m[32m[emitted][39m[22m [1m[32m[dev][39m[22m (auxiliary name: runtime)
+  asset [1m[32mindex.f6d82184826ce5ac2d5f.js[39m[22m 12.4 KiB {[1m[33mindex[39m[22m} [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m (name: index)
+    sourceMap [1m[32mindex.f6d82184826ce5ac2d5f.js.map[39m[22m 8.42 KiB ({[1m[33mindex[39m[22m}) [1m[32m[emitted][39m[22m [1m[32m[dev][39m[22m (auxiliary name: index)
+  asset [1m[32msrc_pages_Home_index_tsx.f23046393448a2d40a0f.js[39m[22m 6.2 KiB {[1m[33msrc_pages_Home_index_tsx[39m[22m} [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m
+    sourceMap [1m[32msrc_pages_Home_index_tsx.f23046393448a2d40a0f.js.map[39m[22m 2.36 KiB ({[1m[33msrc_pages_Home_index_tsx[39m[22m}) [1m[32m[emitted][39m[22m [1m[32m[dev][39m[22m
+  asset [1m[32msrc_pages_about_ts.4223c3132fd5ac56794a.js[39m[22m 699 bytes {[1m[33msrc_pages_about_ts[39m[22m} [1m[32m[emitted][39m[22m [1m[32m[immutable][39m[22m
+    sourceMap [1m[32msrc_pages_about_ts.4223c3132fd5ac56794a.js.map[39m[22m 261 bytes ({[1m[33msrc_pages_about_ts[39m[22m}) [1m[32m[emitted][39m[22m [1m[32m[dev][39m[22m
+assets by status 10 KiB [1m[33m[compared for emit][39m[22m
+  asset [1m[32mindex.css[39m[22m 9.46 KiB {[1m[33mindex[39m[22m} [1m[32m[emitted][39m[22m [1m[33m[compared for emit][39m[22m (name: index)
+    sourceMap [1m[32mindex.css.map[39m[22m 11 KiB ({[1m[33mindex[39m[22m}) [1m[33m[compared for emit][39m[22m [1m[32m[dev][39m[22m (auxiliary name: index)
+  asset [1m[32mindex.html[39m[22m 596 bytes [1m[32m[emitted][39m[22m [1m[33m[compared for emit][39m[22m
+Entrypoint [1mindex[39m[22m [1m[33m[big][39m[22m 1.14 MiB (2.19 MiB) = [1m[32mruntime.0d2bca9e091e93492cdd.js[39m[22m 13.5 KiB [1m[32mvendors.dfffa263f749e8809031.js[39m[22m 1.1 MiB [1m[32mindex.css[39m[22m 9.46 KiB [1m[32mindex.f6d82184826ce5ac2d5f.js[39m[22m 12.4 KiB 4 auxiliary assets
+chunk {[1m[33mindex[39m[22m} (runtime: runtime) [1m[32mindex.css[39m[22m, [1m[32mindex.f6d82184826ce5ac2d5f.js[39m[22m (index) 3.85 KiB (javascript) 7.53 KiB (css/mini-extract) ={[1m[33mruntime[39m[22m}= ={[1m[33mvendors[39m[22m}= >{[1m[33msrc_pages_Home_index_tsx[39m[22m}< >{[1m[33msrc_pages_about_ts[39m[22m}< [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m
+  > C:\repos\tsSourceMap\src\index.tsx [1m[39m[22m index
+chunk {[1m[33mruntime[39m[22m} (runtime: runtime) [1m[32mruntime.0d2bca9e091e93492cdd.js[39m[22m (runtime) 8.34 KiB ={[1m[33mindex[39m[22m}= ={[1m[33mvendors[39m[22m}= >{[1m[33msrc_pages_Home_index_tsx[39m[22m}< >{[1m[33msrc_pages_about_ts[39m[22m}< [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+  > C:\repos\tsSourceMap\src\index.tsx [1m[39m[22m index
+chunk {[1m[33msrc_pages_Home_index_tsx[39m[22m} (runtime: runtime) [1m[32msrc_pages_Home_index_tsx.f23046393448a2d40a0f.js[39m[22m 4.69 KiB (javascript) 43.2 KiB (asset) <{[1m[33mindex[39m[22m}> <{[1m[33mruntime[39m[22m}> <{[1m[33mvendors[39m[22m}> [1m[32m[rendered][39m[22m
+  > ./Home/index.tsx [5044] [1m./src/pages/ lazy .(ts%7Ctsx)$[39m[22m ./Home/index.tsx
+chunk {[1m[33msrc_pages_about_ts[39m[22m} (runtime: runtime) [1m[32msrc_pages_about_ts.4223c3132fd5ac56794a.js[39m[22m 50 bytes <{[1m[33mindex[39m[22m}> <{[1m[33mruntime[39m[22m}> <{[1m[33mvendors[39m[22m}> [1m[32m[rendered][39m[22m
+  > ./about.ts [5044] [1m./src/pages/ lazy .(ts%7Ctsx)$[39m[22m ./about.ts
+chunk {[1m[33mvendors[39m[22m} (runtime: runtime) [1m[32mvendors.dfffa263f749e8809031.js[39m[22m (vendors) (id hint: vendor) 1.07 MiB ={[1m[33mindex[39m[22m}= ={[1m[33mruntime[39m[22m}= >{[1m[33msrc_pages_Home_index_tsx[39m[22m}< >{[1m[33msrc_pages_about_ts[39m[22m}< [1m[33m[initial][39m[22m [1m[32m[rendered][39m[22m [1m[33msplit chunk (cache group: vendor) (name: vendors)[39m[22m
+  > C:\repos\tsSourceMap\src\index.tsx [1m[39m[22m index
+cached modules 2.75 KiB [1m[32m[cached][39m[22m 12 modules
+orphan modules 23.6 KiB (javascript) 937 bytes (runtime) [1m[33m[orphan][39m[22m 10 modules
+modules by path [1m./node_modules/lodash/*.js[39m[22m 94.2 KiB
+  [1m./node_modules/lodash/reduce.js[39m[22m [1734] 1.75 KiB {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 49:0-14[39m[22m
+  [1m./node_modules/lodash/split.js[39m[22m [4880] 1.47 KiB {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 48:0-14[39m[22m
+  [1m./node_modules/lodash/lowerFirst.js[39m[22m [650] 468 bytes {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 21:0-14[39m[22m
+  [1m./node_modules/lodash/_arrayReduce.js[39m[22m [1205] 782 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 24:0-14[39m[22m
+  [1m./node_modules/lodash/_baseEach.js[39m[22m [5806] 451 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 13:0-14[39m[22m
+  [1m./node_modules/lodash/isArray.js[39m[22m [3670] 486 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 25:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIteratee.js[39m[22m [9047] 873 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 28:0-14[39m[22m
+  [1m./node_modules/lodash/toString.js[39m[22m [2049] 578 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 27:0-14[39m[22m
+  [1m./node_modules/lodash/_baseToString.js[39m[22m [8257] 1.11 KiB {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 36:0-14[39m[22m
+  [1m./node_modules/lodash/_baseReduce.js[39m[22m [1787] 896 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/_castSlice.js[39m[22m [2565] 513 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 17:0-14[39m[22m
+  [1m./node_modules/lodash/_hasUnicode.js[39m[22m [4111] 936 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 25:0-14[39m[22m
+  [1m./node_modules/lodash/_isIterateeCall.js[39m[22m [2985] 842 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 26:0-14[39m[22m
+  [1m./node_modules/lodash/isRegExp.js[39m[22m [2558] 640 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 26:0-14[39m[22m
+  [1m./node_modules/lodash/_stringToArray.js[39m[22m [8881] 436 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_createCaseFirst.js[39m[22m [4326] 764 bytes {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 22:0-14[39m[22m
+  [1m./node_modules/lodash/_baseForOwn.js[39m[22m [5645] 452 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_Symbol.js[39m[22m [2773] 116 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 5:0-14[39m[22m
+  [1m./node_modules/lodash/_isIndex.js[39m[22m [4782] 734 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/_baseUnary.js[39m[22m [9081] 331 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 13:0-14[39m[22m
+  [1m./node_modules/lodash/_nodeUtil.js[39m[22m [1985] 991 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: exports is used directly at 4:48-55[39m[22m
+    [1m[33mCommonJS bailout: exports is used directly at 4:80-87[39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 28:0-14[39m[22m
+  [1m./node_modules/lodash/isArrayLike.js[39m[22m [6175] 826 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 32:0-14[39m[22m
+  [1m./node_modules/lodash/isObject.js[39m[22m [71] 731 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 30:0-14[39m[22m
+  [1m./node_modules/lodash/_createBaseEach.js[39m[22m [3978] 878 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 30:0-14[39m[22m
+  [1m./node_modules/lodash/_baseMatches.js[39m[22m [8334] 705 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 21:0-14[39m[22m
+  [1m./node_modules/lodash/eq.js[39m[22m [7950] 795 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 36:0-14[39m[22m
+  [1m./node_modules/lodash/_baseMatchesProperty.js[39m[22m [5941] 1.07 KiB {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 30:0-14[39m[22m
+  [1m./node_modules/lodash/isSymbol.js[39m[22m [4655] 672 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 27:0-14[39m[22m
+  [1m./node_modules/lodash/_arrayMap.js[39m[22m [9258] 549 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 19:0-14[39m[22m
+  [1m./node_modules/lodash/identity.js[39m[22m [1559] 368 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/property.js[39m[22m [8886] 785 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 31:0-14[39m[22m
+  [1m./node_modules/lodash/_baseSlice.js[39m[22m [1956] 744 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 28:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsRegExp.js[39m[22m [43] 507 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 17:0-14[39m[22m
+  [1m./node_modules/lodash/_asciiToArray.js[39m[22m [333] 255 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 11:0-14[39m[22m
+  [1m./node_modules/lodash/_unicodeToArray.js[39m[22m [49] 1.52 KiB {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 39:0-14[39m[22m
+  [1m./node_modules/lodash/_baseFor.js[39m[22m [7079] 591 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/keys.js[39m[22m [3225] 878 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 36:0-14[39m[22m
+  [1m./node_modules/lodash/_baseGetTag.js[39m[22m [1185] 774 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 25:0-14[39m[22m
+  [1m./node_modules/lodash/_root.js[39m[22m [4362] 298 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 8:0-14[39m[22m
+  [1m./node_modules/lodash/_freeGlobal.js[39m[22m [8556] 171 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 3:0-14[39m[22m
+  [1m./node_modules/lodash/isObjectLike.js[39m[22m [4939] 612 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 28:0-14[39m[22m
+  [1m./node_modules/lodash/isLength.js[39m[22m [7100] 796 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 33:0-14[39m[22m
+  [1m./node_modules/lodash/isFunction.js[39m[22m [3626] 983 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 36:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsMatch.js[39m[22m [4656] 1.65 KiB {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 53:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsEqual.js[39m[22m [9856] 1010 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 27:0-14[39m[22m
+  [1m./node_modules/lodash/_getMatchData.js[39m[22m [2811] 563 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 21:0-14[39m[22m
+  [1m./node_modules/lodash/_isStrictComparable.js[39m[22m [3631] 412 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 14:0-14[39m[22m
+  [1m./node_modules/lodash/_matchesStrictComparable.js[39m[22m [4248] 565 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 18:0-14[39m[22m
+  [1m./node_modules/lodash/get.js[39m[22m [643] 882 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 32:0-14[39m[22m
+  [1m./node_modules/lodash/_isKey.js[39m[22m [837] 862 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 26:0-14[39m[22m
+  [1m./node_modules/lodash/_toKey.js[39m[22m [7102] 515 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/hasIn.js[39m[22m [9059] 749 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 33:0-14[39m[22m
+  [1m./node_modules/lodash/_baseProperty.js[39m[22m [3184] 359 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 13:0-14[39m[22m
+  [1m./node_modules/lodash/_basePropertyDeep.js[39m[22m [886] 390 bytes {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_createBaseFor.js[39m[22m [7924] 640 bytes {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 23:0-14[39m[22m
+  [1m./node_modules/lodash/_arrayLikeKeys.js[39m[22m [8083] 1.64 KiB {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 45:0-14[39m[22m
+  [1m./node_modules/lodash/_getRawTag.js[39m[22m [3888] 1.11 KiB {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 43:0-14[39m[22m
+  [1m./node_modules/lodash/_objectToString.js[39m[22m [2299] 563 bytes {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 21:0-14[39m[22m
+  [1m./node_modules/lodash/_baseKeys.js[39m[22m [7521] 772 bytes {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 29:0-14[39m[22m
+  [1m./node_modules/lodash/_Stack.js[39m[22m [959] 722 bytes {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 26:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsEqualDeep.js[39m[22m [1829] 2.89 KiB {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 75:0-14[39m[22m
+  [1m./node_modules/lodash/_baseGet.js[39m[22m [5974] 606 bytes {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 21:0-14[39m[22m
+  [1m./node_modules/lodash/_baseHasIn.js[39m[22m [5529] 372 bytes {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 12:0-14[39m[22m
+  [1m./node_modules/lodash/_hasPath.js[39m[22m [4727] 1.04 KiB {[1m[33mvendors[39m[22m} [depth 6] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 35:0-14[39m[22m
+  [1m./node_modules/lodash/_baseTimes.js[39m[22m [5094] 499 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 18:0-14[39m[22m
+  [1m./node_modules/lodash/isArguments.js[39m[22m [9246] 1020 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 36:0-14[39m[22m
+  [1m./node_modules/lodash/isBuffer.js[39m[22m [2343] 1.08 KiB {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: exports is used directly at 5:48-55[39m[22m
+    [1m[33mCommonJS bailout: exports is used directly at 5:80-87[39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 37:0-14[39m[22m
+  [1m./node_modules/lodash/isTypedArray.js[39m[22m [1589] 689 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 26:0-14[39m[22m
+  [1m./node_modules/lodash/_isPrototype.js[39m[22m [2803] 473 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 16:0-14[39m[22m
+  [1m./node_modules/lodash/_nativeKeys.js[39m[22m [3865] 202 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 5:0-14[39m[22m
+  [1m./node_modules/lodash/_ListCache.js[39m[22m [2768] 856 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 30:0-14[39m[22m
+  [1m./node_modules/lodash/_stackClear.js[39m[22m [7553] 254 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 14:0-14[39m[22m
+  [1m./node_modules/lodash/_stackDelete.js[39m[22m [6038] 400 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 16:0-14[39m[22m
+  [1m./node_modules/lodash/_stackGet.js[39m[22m [2397] 269 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 13:0-14[39m[22m
+  [1m./node_modules/lodash/_stackHas.js[39m[22m [2421] 321 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 13:0-14[39m[22m
+  [1m./node_modules/lodash/_stackSet.js[39m[22m [2936] 845 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 33:0-14[39m[22m
+  [1m./node_modules/lodash/_equalArrays.js[39m[22m [3426] 2.5 KiB {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 74:0-14[39m[22m
+  [1m./node_modules/lodash/_equalByTag.js[39m[22m [1402] 3.59 KiB {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 100:0-14[39m[22m
+  [1m./node_modules/lodash/_equalObjects.js[39m[22m [4572] 2.81 KiB {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 78:0-14[39m[22m
+  [1m./node_modules/lodash/_getTag.js[39m[22m [2417] 1.79 KiB {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 56:0-14[39m[22m
+  [1m./node_modules/lodash/_castPath.js[39m[22m [6883] 561 bytes {[1m[33mvendors[39m[22m} [depth 7] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsArguments.js[39m[22m [1075] 484 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 17:0-14[39m[22m
+  [1m./node_modules/lodash/stubFalse.js[39m[22m [3444] 278 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 17:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsTypedArray.js[39m[22m [3638] 2.12 KiB {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 46:0-14[39m[22m
+  [1m./node_modules/lodash/_overArg.js[39m[22m [5290] 381 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 14:0-14[39m[22m
+  [1m./node_modules/lodash/_listCacheClear.js[39m[22m [3708] 216 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 12:0-14[39m[22m
+  [1m./node_modules/lodash/_listCacheDelete.js[39m[22m [6993] 770 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 33:0-14[39m[22m
+  [1m./node_modules/lodash/_listCacheGet.js[39m[22m [286] 415 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 17:0-14[39m[22m
+  [1m./node_modules/lodash/_listCacheHas.js[39m[22m [1678] 401 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_listCacheSet.js[39m[22m [9743] 548 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 24:0-14[39m[22m
+  [1m./node_modules/lodash/_Map.js[39m[22m [4804] 191 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 6:0-14[39m[22m
+  [1m./node_modules/lodash/_toSource.js[39m[22m [1214] 552 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 25:0-14[39m[22m
+  [1m./node_modules/lodash/_MapCache.js[39m[22m [8423] 856 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 30:0-14[39m[22m
+  [1m./node_modules/lodash/_SetCache.js[39m[22m [9832] 625 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 25:0-14[39m[22m
+  [1m./node_modules/lodash/_arraySome.js[39m[22m [4481] 589 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 21:0-14[39m[22m
+  [1m./node_modules/lodash/_cacheHas.js[39m[22m [3159] 335 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 12:0-14[39m[22m
+  [1m./node_modules/lodash/_Uint8Array.js[39m[22m [2496] 128 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 5:0-14[39m[22m
+  [1m./node_modules/lodash/_mapToArray.js[39m[22m [8961] 359 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 16:0-14[39m[22m
+  [1m./node_modules/lodash/_setToArray.js[39m[22m [6983] 341 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 16:0-14[39m[22m
+  [1m./node_modules/lodash/_getAllKeys.js[39m[22m [5788] 449 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_DataView.js[39m[22m [9940] 206 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 6:0-14[39m[22m
+  [1m./node_modules/lodash/_Promise.js[39m[22m [7114] 203 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 6:0-14[39m[22m
+  [1m./node_modules/lodash/_Set.js[39m[22m [689] 191 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 6:0-14[39m[22m
+  [1m./node_modules/lodash/_WeakMap.js[39m[22m [5284] 203 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 6:0-14[39m[22m
+  [1m./node_modules/lodash/_stringToPath.js[39m[22m [376] 838 bytes {[1m[33mvendors[39m[22m} [depth 8] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 26:0-14[39m[22m
+  [1m./node_modules/lodash/_assocIndexOf.js[39m[22m [6213] 485 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/_getNative.js[39m[22m [3203] 479 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 16:0-14[39m[22m
+  [1m./node_modules/lodash/_mapCacheClear.js[39m[22m [6977] 393 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/_mapCacheDelete.js[39m[22m [7474] 448 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 17:0-14[39m[22m
+  [1m./node_modules/lodash/_mapCacheGet.js[39m[22m [727] 328 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_mapCacheHas.js[39m[22m [3653] 380 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_mapCacheSet.js[39m[22m [6140] 484 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 20:0-14[39m[22m
+  [1m./node_modules/lodash/_setCacheAdd.js[39m[22m [9911] 422 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 18:0-14[39m[22m
+  [1m./node_modules/lodash/_setCacheHas.js[39m[22m [7447] 314 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 13:0-14[39m[22m
+  [1m./node_modules/lodash/_baseGetAllKeys.js[39m[22m [891] 735 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 19:0-14[39m[22m
+  [1m./node_modules/lodash/_getSymbols.js[39m[22m [7976] 884 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 29:0-14[39m[22m
+  [1m./node_modules/lodash/_memoizeCapped.js[39m[22m [5933] 631 bytes {[1m[33mvendors[39m[22m} [depth 9] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 24:0-14[39m[22m
+  [1m./node_modules/lodash/_baseIsNative.js[39m[22m [4106] 1.37 KiB {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 43:0-14[39m[22m
+  [1m./node_modules/lodash/_getValue.js[39m[22m [7338] 323 bytes {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 12:0-14[39m[22m
+  [1m./node_modules/lodash/_Hash.js[39m[22m [1979] 734 bytes {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 30:0-14[39m[22m
+  [1m./node_modules/lodash/_getMapData.js[39m[22m [404] 390 bytes {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 15:0-14[39m[22m
+  [1m./node_modules/lodash/_arrayPush.js[39m[22m [8421] 430 bytes {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 18:0-14[39m[22m
+  [1m./node_modules/lodash/_arrayFilter.js[39m[22m [6523] 623 bytes {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 23:0-14[39m[22m
+  [1m./node_modules/lodash/stubArray.js[39m[22m [4043] 388 bytes {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 22:0-14[39m[22m
+  [1m./node_modules/lodash/memoize.js[39m[22m [104] 2.17 KiB {[1m[33mvendors[39m[22m} [depth 10] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 71:0-14[39m[22m
+  [1m./node_modules/lodash/_isMasked.js[39m[22m [9249] 557 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 19:0-14[39m[22m
+  [1m./node_modules/lodash/_hashClear.js[39m[22m [9129] 279 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 14:0-14[39m[22m
+  [1m./node_modules/lodash/_hashDelete.js[39m[22m [7644] 443 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 16:0-14[39m[22m
+  [1m./node_modules/lodash/_hashGet.js[39m[22m [3486] 770 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 29:0-14[39m[22m
+  [1m./node_modules/lodash/_hashHas.js[39m[22m [4786] 622 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 22:0-14[39m[22m
+  [1m./node_modules/lodash/_hashSet.js[39m[22m [6444] 594 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 22:0-14[39m[22m
+  [1m./node_modules/lodash/_isKeyable.js[39m[22m [4480] 414 bytes {[1m[33mvendors[39m[22m} [depth 11] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 12:0-14[39m[22m
+  [1m./node_modules/lodash/_coreJsData.js[39m[22m [1741] 155 bytes {[1m[33mvendors[39m[22m} [depth 12] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 5:0-14[39m[22m
+  [1m./node_modules/lodash/_nativeCreate.js[39m[22m [6326] 185 bytes {[1m[33mvendors[39m[22m} [depth 12] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: module.exports is used directly at 5:0-14[39m[22m
+modules by path [1m./src/[39m[22m 8.59 KiB (javascript) 1.54 KiB (css/mini-extract) 43.2 KiB (asset)
+  javascript modules 8.55 KiB
+    modules by path [1m./src/App/[39m[22m 2.02 KiB
+      [1m./src/App/index.tsx[39m[22m [5337] 1.8 KiB {[1m[33mindex[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./src/App/menuContext.ts[39m[22m [6212] 72 bytes {[1m[33mindex[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./src/App/index.less[39m[22m [9518] 150 bytes {[1m[33mindex[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+    modules by path [1m./src/pages/[39m[22m 4.85 KiB
+      [1m./src/pages/ lazy .(ts%7Ctsx)$[39m[22m [5044] 160 bytes {[1m[33mindex[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[no exports][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./src/pages/Home/index.tsx[39m[22m [40] 4.65 KiB {[1m[33msrc_pages_Home_index_tsx[39m[22m} [depth 4] [1m[33m[optional][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./src/pages/about.ts[39m[22m [2274] 50 bytes {[1m[33msrc_pages_about_ts[39m[22m} [depth 4] [1m[33m[optional][39m[22m [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+    modules by path [1m./src/components/Menu/[39m[22m 1.15 KiB
+      [1m./src/components/Menu/index.tsx[39m[22m [4245] 1.03 KiB {[1m[33mindex[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+      [1m./src/components/Menu/index.less[39m[22m [4858] 117 bytes {[1m[33mindex[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+        [1m[36m[exports: default][39m[22m
+        [1m[36m[used exports unknown][39m[22m
+    [1m./src/index.tsx[39m[22m [2629] 487 bytes {[1m[33mindex[39m[22m} [depth 0] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[no exports][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1m./src/index.less[39m[22m [1264] 58 bytes {[1m[33mindex[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: default][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+  css modules 1.54 KiB
+    css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]![1m./src/index.less[39m[22m 1.1 KiB {[1m[33mindex[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]![1m./src/App/index.less[39m[22m 146 bytes {[1m[33mindex[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]![1m./src/components/Menu/index.less[39m[22m 299 bytes {[1m[33mindex[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+  [1m./src/pages/Home/1.jpg[39m[22m [6031] 42 bytes (javascript) 43.2 KiB (asset) {[1m[33msrc_pages_Home_index_tsx[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+runtime modules 8.34 KiB
+  [1mwebpack/runtime/chunk loaded[39m[22m 886 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/compat get default export[39m[22m 267 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/css loading[39m[22m 0 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/define property getters[39m[22m 308 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/ensure chunk[39m[22m 326 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/get javascript chunk filename[39m[22m 280 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/get mini-css chunk filename[39m[22m 163 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/global[39m[22m 221 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/hasOwnProperty shorthand[39m[22m 88 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/jsonp chunk loading[39m[22m 3.11 KiB {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/load script[39m[22m 1.47 KiB {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/make namespace object[39m[22m 274 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/node module decorator[39m[22m 123 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1mwebpack/runtime/publicPath[39m[22m 923 bytes {[1m[33mruntime[39m[22m} [1m[33m[code generated][39m[22m
+    [1m[36m[no exports][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+modules by path [1m./node_modules/react/[39m[22m 139 KiB
+  modules by path [1m./node_modules/react/*.js[39m[22m 402 bytes
+    [1m./node_modules/react/jsx-runtime.js[39m[22m [3823] 213 bytes {[1m[33mvendors[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: Fragment, jsx, jsxs][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1m./node_modules/react/index.js[39m[22m [5466] 189 bytes {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+  modules by path [1m./node_modules/react/cjs/*.js[39m[22m 139 KiB
+    [1m./node_modules/react/cjs/react-jsx-runtime.development.js[39m[22m [1988] 44.7 KiB {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[exports: Fragment, jsx, jsxs][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+    [1m./node_modules/react/cjs/react.development.js[39m[22m [9874] 94.1 KiB {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+      [1m[36m[used exports unknown][39m[22m
+modules by path [1m./node_modules/react-dom/[39m[22m 840 KiB
+  [1m./node_modules/react-dom/client.js[39m[22m [3897] 620 bytes {[1m[33mvendors[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: createRoot, hydrateRoot][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1m./node_modules/react-dom/index.js[39m[22m [6116] 1.32 KiB {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, createPortal, createRoot, findDOMNode, flushSync, hydrate, hydrateRoot, render, unmountComponentAtNode, unstable_batchedUpdates, unstable_renderSubtreeIntoContainer, version][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1m./node_modules/react-dom/cjs/react-dom.development.js[39m[22m [2456] 838 KiB {[1m[33mvendors[39m[22m} [depth 3] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: __SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED, createPortal, createRoot, findDOMNode, flushSync, hydrate, hydrateRoot, render, unmountComponentAtNode, unstable_batchedUpdates, unstable_renderSubtreeIntoContainer, version][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+modules by path [1m./node_modules/normalize.css/*.css[39m[22m 58 bytes (javascript) 5.99 KiB (css/mini-extract)
+  [1m./node_modules/normalize.css/normalize.css[39m[22m [6183] 58 bytes {[1m[33mvendors[39m[22m} [depth 1] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: default][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[0].use[1]![1m./node_modules/normalize.css/normalize.css[39m[22m 5.99 KiB {[1m[33mindex[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+modules by path [1m./node_modules/scheduler/[39m[22m 19 KiB
+  [1m./node_modules/scheduler/index.js[39m[22m [7767] 197 bytes {[1m[33mvendors[39m[22m} [depth 4] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: unstable_IdlePriority, unstable_ImmediatePriority, unstable_LowPriority, unstable_NormalPriority, unstable_Profiling, unstable_UserBlockingPriority, unstable_cancelCallback, unstable_continueExecution, unstable_forceFrameRate, unstable_getCurrentPriorityLevel, unstable_getFirstCallbackNode, unstable_next, unstable_now, unstable_pauseExecution, unstable_requestPaint, unstable_runWithPriority, unstable_scheduleCallback, unstable_shouldYield, unstable_wrapCallback][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+  [1m./node_modules/scheduler/cjs/scheduler.development.js[39m[22m [461] 18.8 KiB {[1m[33mvendors[39m[22m} [depth 5] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+    [1m[36m[exports: unstable_IdlePriority, unstable_ImmediatePriority, unstable_LowPriority, unstable_NormalPriority, unstable_Profiling, unstable_UserBlockingPriority, unstable_cancelCallback, unstable_continueExecution, unstable_forceFrameRate, unstable_getCurrentPriorityLevel, unstable_getFirstCallbackNode, unstable_next, unstable_now, unstable_pauseExecution, unstable_requestPaint, unstable_runWithPriority, unstable_scheduleCallback, unstable_shouldYield, unstable_wrapCallback][39m[22m
+    [1m[36m[used exports unknown][39m[22m
+    [1m[33mCommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 197:32-52[39m[22m
+    [1m[33mCommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 228:24-44[39m[22m
+    [1m[33mCommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 308:24-44[39m[22m
+    [1m[33mCommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 404:24-44[39m[22m
+    [1m[33mCommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 429:26-46[39m[22m
+    [1m[33mCommonJS bailout: exports.unstable_now(...) prevents optimization as exports is passed as call context at 497:17-37[39m[22m
+[1m./node_modules/classnames/index.js[39m[22m [8098] 1.58 KiB {[1m[33mvendors[39m[22m} [depth 2] [1m[33m[built][39m[22m [1m[33m[code generated][39m[22m
+  [1m[36m[used exports unknown][39m[22m
+  [1m[33mCommonJS bailout: module.exports is used directly at 52:39-53[39m[22m
+  [1m[33mCommonJS bailout: module.exports is used directly at 54:4-18[39m[22m
+
+[1mLOG from webpack.DefinePlugin[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+    [1mReplaced "process.env.NODE_ENV" with ""development""[39m[22m
+
+[1mLOG from webpack.Compilation[39m[22m
+    [1m160 modules hashed, 0 from cache (0.88 variants per module in average)[39m[22m
+    [1m100% code generated (160 generated, 0 from cache)[39m[22m
+    [1m100% code generated (14 generated, 0 from cache)[39m[22m
++ 37 hidden lines
+
+[1mLOG from webpack.ResolverCachePlugin[39m[22m
+    [1m37% really resolved (191 real resolves with 0 cached but invalid, 332 cached valid, 0 concurrent)[39m[22m
+
+[1mLOG from webpack.FlagDependencyExportsPlugin[39m[22m
+    [1m13% of exports of modules have been determined (158 no declared exports, 23 not cached, 1 flagged uncacheable, 0 from cache, 0 from mem cache, 3 additional calculations due to dependencies)[39m[22m
++ 3 hidden lines
+
+[1mLOG from webpack.buildChunkGraph[39m[22m
+    [1m328 queue items processed (162 blocks)[39m[22m
+    [1m2 chunk groups connected[39m[22m
+    [1m2 chunk groups processed for merging (2 module sets, 0 forked, 0 + 0 modules forked, 0 + 0 modules merged into fork, 0 resulting modules)[39m[22m
+    [1m2 chunk group info updated (0 already connected chunk groups reconnected)[39m[22m
++ 10 hidden lines
+
+[1mLOG from webpack.FileSystemInfo[39m[22m
+    [1m354 new snapshots created[39m[22m
+    [1m0% root snapshot uncached (0 / 332)[39m[22m
+    [1m0% children snapshot uncached (0 / 0)[39m[22m
+    [1m0 entries tested[39m[22m
+    [1mFile info in cache: 48 timestamps 0 hashes 0 timestamp hash combinations[39m[22m
+    [1mFile timestamp snapshot optimization: 43% (64/149) entries shared via 2 shared snapshots (12 times referenced)[39m[22m
+    [1mDirectory info in cache: 2 timestamps 0 hashes 0 timestamp hash combinations[39m[22m
+    [1mDirectory timestamp snapshot optimization: 0% (0/1) entries shared via 0 shared snapshots (0 times referenced)[39m[22m
+    [1mMissing items snapshot optimization: 49% (69/141) entries shared via 3 shared snapshots (18 times referenced)[39m[22m
+    [1mManaged items info in cache: 106 items[39m[22m
+    [1mManaged items snapshot optimization: 47% (326/694) entries shared via 4 shared snapshots (11 times referenced)[39m[22m
+    [1mManaged files snapshot optimization: 68% (1463/2137) entries shared via 8 shared snapshots (22 times referenced)[39m[22m
+    [1mManaged missing snapshot optimization: 10% (72/688) entries shared via 4 shared snapshots (7 times referenced)[39m[22m
+
+[1mLOG from webpack.CleanPlugin[39m[22m
+    [1mvendors.b25d01af829f78bb864d.js.map will be removed[39m[22m
+    [1mvendors.b25d01af829f78bb864d.js will be removed[39m[22m
+    [1msrc_pages_about_ts.4318d472a527bcc8f9fe.js.map will be removed[39m[22m
+    [1msrc_pages_Home_index_tsx.1b60099668f13562952d.js.map will be removed[39m[22m
+    [1msrc_pages_about_ts.4318d472a527bcc8f9fe.js will be removed[39m[22m
+    [1msrc_pages_Home_index_tsx.1b60099668f13562952d.js will be removed[39m[22m
+    [1mruntime.9c1101140a65ef4042e5.js.map will be removed[39m[22m
+    [1mruntime.9c1101140a65ef4042e5.js will be removed[39m[22m
+    [1mindex.ca73acc302ef1ea7bd56.js.map will be removed[39m[22m
+    [1mindex.ca73acc302ef1ea7bd56.js will be removed[39m[22m
+
+2024-02-21 [1m13:26:21[39m[22m: webpack 5.89.0 compiled [1m[32msuccessfully[39m[22m in 4471 ms (82e168693debb98bd58e)

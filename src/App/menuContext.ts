@@ -1,0 +1,1 @@
+export default require.context('../pages', true, /.(ts|tsx)$/, 'lazy');
