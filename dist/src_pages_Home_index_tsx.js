@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebpack_ts"] = self["webpackChunkwebpack_ts"] || []).push([["src_pages_Home_index_tsx"],{
+(self["webpackChunkapp"] = self["webpackChunkapp"] || []).push([["src_pages_Home_index_tsx"],{
 
-/***/ 40:
+/***/ 1245:
 /*!**********************************!*\
   !*** ./src/pages/Home/index.tsx ***!
   \**********************************/
@@ -11,10 +11,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ 3823);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ 5466);
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-runtime */ 7671);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ 4914);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./1.jpg */ 6031);
+/* harmony import */ var _1_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./1.jpg */ 8458);
 var __awaiter = (undefined && undefined.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -60,7 +60,6 @@ function getImageContent(src) {
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0:
-                    console.log('getImageContent', new Date());
                     if (!src) return [3 /*break*/, 3];
                     return [4 /*yield*/, fetch(src)];
                 case 1:
@@ -79,14 +78,12 @@ function getImageContent(src) {
 var defImg;
 getImageContent(_1_jpg__WEBPACK_IMPORTED_MODULE_2__).then(function (newImg) { return __awaiter(void 0, void 0, void 0, function () {
     return __generator(this, function (_a) {
-        console.log('load', new Date());
         defImg = newImg;
         return [2 /*return*/];
     });
 }); });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (function () {
     var _a = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(defImg), img = _a[0], setImg = _a[1];
-    console.log('render', new Date());
     var loadImage = function () { return __awaiter(void 0, void 0, void 0, function () {
         var newImg;
         return __generator(this, function (_a) {
@@ -104,14 +101,13 @@ getImageContent(_1_jpg__WEBPACK_IMPORTED_MODULE_2__).then(function (newImg) { re
             }
         });
     }); };
-    // картинка загружается сразу
     return ((0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, { children: [img && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("img", { src: img, alt: "cat" }), !img && (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx)("button", { onClick: loadImage, type: 'button', className: 'theme', children: "load image" })] }));
 });
 
 
 /***/ }),
 
-/***/ 6031:
+/***/ 8458:
 /*!******************************!*\
   !*** ./src/pages/Home/1.jpg ***!
   \******************************/
@@ -122,4 +118,4 @@ module.exports = __webpack_require__.p + "a95670f8dfa89f97dcd5.jpg";
 /***/ })
 
 }]);
-//# sourceMappingURL=src_pages_Home_index_tsx.f23046393448a2d40a0f.js.map
+//# sourceMappingURL=src_pages_Home_index_tsx.js.map

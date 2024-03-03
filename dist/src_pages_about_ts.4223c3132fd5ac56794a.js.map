@@ -1,1 +1,0 @@
-{"version":3,"file":"src_pages_about_ts.4223c3132fd5ac56794a.js","mappings":";;;;;;;;;;;;;AAAA,iEAAe,cAAM,cAAO,EAAP,CAAO,EAAC","sources":["webpack://webpack-ts/./src/pages/about.ts"],"sourcesContent":["export default () => 'about';"],"names":[],"sourceRoot":""}

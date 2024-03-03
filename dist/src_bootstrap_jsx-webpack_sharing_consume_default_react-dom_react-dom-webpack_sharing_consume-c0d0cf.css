@@ -1,0 +1,90 @@
+/*!*****************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/index.less ***!
+  \*****************************************************************************************************************************************************************/
+.main {
+  background-color: #2d3a4e;
+  width: 100vw;
+  height: 100vh;
+  color: #cec5b6;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 400;
+}
+button {
+  background-color: #cec5b6;
+  border: 2px #2d3a4e solid;
+  border-radius: 8px;
+  color: #2d3a4e;
+  outline: none;
+  padding: 12px;
+  font-weight: 800;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+button.primary {
+  background-color: #7fa4db;
+  border-color: #7fa4db;
+}
+button.theme {
+  background-color: #2d3a4e;
+  border-color: #cec5b6;
+  color: #cec5b6;
+}
+.tooltipRoot {
+  position: relative;
+}
+.tooltipRoot.withTooltip > .tooltip, .tooltipRoot .withTooltip > .tooltip {
+  visibility: hidden;
+  max-width: 30vw;
+  background-color: rgba(206, 197, 182, 0.8);
+  color: #2d3a4e;
+  text-align: center;
+  padding: 12px;
+  border-radius: 8px;
+  position: absolute;
+  z-index: 10;
+}
+.tooltipRoot.withTooltip > .tooltip.theme, .tooltipRoot .withTooltip > .tooltip.theme {
+  background-color: rgba(45, 58, 78, 0.8);
+  color: #cec5b6;
+}
+.tooltipRoot.withTooltip:hover > .tooltip, .tooltipRoot .withTooltip:hover > .tooltip {
+  visibility: visible;
+}
+
+/*!*********************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/components/Menu/index.less ***!
+  \*********************************************************************************************************************************************************************************/
+.gugJUuU9ER28AKx_X7cQ {
+  background-color: #cec5b6;
+  color: #2d3a4e;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  min-width: 10%;
+  max-width: 15%;
+  border-radius: 0 8px 8px 0;
+}
+.uAaWgugOj3kZsl5yGwNV {
+  border-radius: 0 8px 8px 0;
+  border-color: #cec5b6;
+  text-align: left;
+}
+
+/*!*********************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/less-loader/dist/cjs.js??ruleSet[1].rules[1].use[2]!./src/App/index.less ***!
+  \*********************************************************************************************************************************************************************/
+.i4JUY1kmcIJXbewaPiTs {
+  display: flex;
+}
+.m0Uuj7z2rBbu6tdxx9Uj {
+  flex-shrink: 1;
+}
+.YBqjOmPODgDTEj0gIKUR {
+  flex-grow: 1;
+  padding: 24px;
+}
+
+
+/*# sourceMappingURL=src_bootstrap_jsx-webpack_sharing_consume_default_react-dom_react-dom-webpack_sharing_consume-c0d0cf.css.map*/

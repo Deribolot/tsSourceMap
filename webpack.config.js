@@ -3,8 +3,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const PreloadWebpackPlugin = require('@vue/preload-webpack-plugin');
-
-
+const { ModuleFederationPlugin } = require('webpack').container;
+const { FederatedTypesPlugin } = require('@module-federation/typescript');
+const deps = require('./package.json').dependencies;
 
 //uglify
 //линтеры
@@ -17,6 +18,24 @@ Use the fork-ts-checker-webpack-plugin for typechecking in a separate process.
 Configure loaders to skip typechecking.
 Use the ts-loader in happyPackMode: true / transpileOnly: true.
  */
+
+const federationConfig = {
+    name: 'app',
+    remotes: {
+        'lib': 'lib@http://localhost:3002/remoteEntry.js'
+
+    },
+    shared: {
+        react: {
+            requiredVersion: deps['react'],
+            singleton: true,
+        },
+        'react-dom': {
+            requiredVersion: deps['react-dom'],
+            singleton: true,
+        },
+    }
+};
 
 const darkColor = '45, 58, 78';
 const lightColor = '206, 197, 182';
@@ -32,13 +51,16 @@ module.exports = (env, argv) => {
             index: path.join(__dirname, 'src', 'index.tsx'),
         },
         output: {
-            path: path.resolve(__dirname, 'dist'),
-            filename: '[name].[contenthash].js',
-            clean: true
+            publicPath: 'auto',
         },
         devtool: isProduction ? 'nosources-source-map' : 'source-map',
         devServer: {
             static: path.resolve(__dirname, 'dist'),
+            headers: {
+                'Access-Control-Allow-Origin': '*',
+            },
+            port: 3001,
+            open: true,
         },
         module: {
             rules: [
@@ -125,20 +147,26 @@ module.exports = (env, argv) => {
             minimizer: [
                 new CssMinimizerPlugin(),
             ],
-            runtimeChunk: 'single',
-            splitChunks: {
-                cacheGroups: {
-                    vendor: {
-                        test: /[\\/]node_modules[\\/]/,
-                        name: 'vendors',
-                        chunks: 'initial',
-                    },
-                },
-            },
+            //  runtimeChunk: 'single',
+            /*   splitChunks: {
+                   cacheGroups: {
+                       vendor: {
+                           test: /[\\/]node_modules[\\/]/,
+                           name: 'vendors',
+                           chunks: 'initial',
+                       },
+                   },
+               },*/
         },
         plugins: [
             new MiniCssExtractPlugin(),
-            new HtmlWebpackPlugin({ template: path.join(__dirname, 'src', 'index.html') }),
+            new ModuleFederationPlugin(federationConfig),
+            new FederatedTypesPlugin({
+                federationConfig,
+            }),
+            new HtmlWebpackPlugin({
+                template: path.join(__dirname, 'src', 'index.html')
+            }),
         ],
         ...env.stats ? { stats: 'detailed' } : {},
         performance: {

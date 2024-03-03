@@ -1,7 +1,7 @@
 "use strict";
-(self["webpackChunkwebpack_ts"] = self["webpackChunkwebpack_ts"] || []).push([["src_pages_about_ts"],{
+(self["webpackChunkapp"] = self["webpackChunkapp"] || []).push([["src_pages_about_ts"],{
 
-/***/ 2274:
+/***/ 958:
 /*!****************************!*\
   !*** ./src/pages/about.ts ***!
   \****************************/
@@ -17,4 +17,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=src_pages_about_ts.4223c3132fd5ac56794a.js.map
+//# sourceMappingURL=src_pages_about_ts.js.map
