@@ -6,7 +6,7 @@ import lowerFirst from 'lodash/lowerFirst';
 import classnames from 'classnames';
 import styles from './index.less';
 
-const Menu = React.lazy(() => import('lib/Menu'));
+const Menu = React.lazy(() => import(/* webpackPrefetch: true */'lib/Menu'));
 
 function RenderingComponent({ Component }: { Component: React.FunctionComponent }) {
     return <Component />

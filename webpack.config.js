@@ -12,6 +12,10 @@ const deps = require('./package.json').dependencies;
 // сторибук
 // моки 
 
+// антд + тема
+// react router
+// query
+
 /*
 TypeScript
 Use the fork-ts-checker-webpack-plugin for typechecking in a separate process.
@@ -51,7 +55,12 @@ module.exports = (env, argv) => {
             index: path.join(__dirname, 'src', 'index.tsx'),
         },
         output: {
-            publicPath: 'auto',
+            path: path.resolve(__dirname, 'dist'),
+            filename: '[name].[contenthash].js',
+            clean: true,
+            environment: {
+                asyncFunction: true,
+            },
         },
         devtool: isProduction ? 'nosources-source-map' : 'source-map',
         devServer: {
@@ -60,8 +69,9 @@ module.exports = (env, argv) => {
                 'Access-Control-Allow-Origin': '*',
             },
             port: 3001,
-            open: true,
+            hot: true,
         },
+        target: 'browserslist',
         module: {
             rules: [
                 {
@@ -147,16 +157,6 @@ module.exports = (env, argv) => {
             minimizer: [
                 new CssMinimizerPlugin(),
             ],
-            //  runtimeChunk: 'single',
-            /*   splitChunks: {
-                   cacheGroups: {
-                       vendor: {
-                           test: /[\\/]node_modules[\\/]/,
-                           name: 'vendors',
-                           chunks: 'initial',
-                       },
-                   },
-               },*/
         },
         plugins: [
             new MiniCssExtractPlugin(),

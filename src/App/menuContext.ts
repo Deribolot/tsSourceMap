@@ -1,1 +1,1 @@
-export default require.context('../pages', true, /.(ts|tsx)$/, 'lazy');
+export default require.context('../pages', true, /.(ts|tsx|jsx|js)$/, 'lazy');

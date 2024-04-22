@@ -1,39 +1,49 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import imgSrc from './1.jpg';
+import HelloAlert from '@/components/HelloAlert';
+import styles from './index.less';
 
 async function getImageContent(src: string) {
-  let img
+  let img: string | null = null;
   if (src) {
-    const imgResponse = await fetch(src);
-    if (imgResponse) {
-      const blob = await imgResponse.blob();
-      img = URL.createObjectURL(blob);
+    try {
+      const imgResponse = await fetch(src);
+      if (imgResponse) {
+        const blob = await imgResponse.blob();
+        img = URL.createObjectURL(blob);
+      }
+    } catch (e) {
     }
   }
   return img;
 }
 
-let defImg: string | undefined;
-getImageContent(imgSrc).then(async (newImg) => {
-  defImg = newImg
-});
-
 export default () => {
-  const [img, setImg] = useState(defImg);
+  const [img, setImg] = useState<string | null>(null);
+  const ref = useRef<boolean>(false);
+  const [isWatched, setIsWatched] = useState<boolean>(false);
 
-  const loadImage = async () => {
-    if (defImg) {
-      setImg(defImg)
-      return
+  const showHelloAlert = async () => {
+    if(isWatched){
+      return;
     }
     const newImg = await getImageContent(imgSrc);
-    setImg(newImg)
+    setImg(newImg);
+  }
+
+  const closeHelloAlert = () => {
+    setIsWatched(true);
+    setImg(null);
   }
 
   return (
     <>
-      {img && <img src={img} alt="cat" />}
-      {!img && <button onClick={loadImage} type='button' className='theme' >load image</button>}
+      {img && (
+        <HelloAlert onClose={closeHelloAlert}>
+          <img src={img} alt="cat" className={styles.img} />
+        </HelloAlert>
+      )}
+      {!img && !isWatched && <button onClick={showHelloAlert} type='button' className='theme' >load image</button>}
     </>
   );
 }
