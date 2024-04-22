@@ -7,6 +7,7 @@
 > yarn start
 
 **сборка**
+
 собрать remoteModule(клонировать его тут git@github.com:Deribolot/componentLibrary.git)
 > yarn build
 
